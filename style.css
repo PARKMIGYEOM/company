@@ -169,3 +169,50 @@ section .inner h2 {
     font: 14px/1.4 "arial";
     color: #777;
 }
+footer{
+    width: 100%;
+    background-color: #333;
+    padding: 100px 0;
+    border-top: 1px solid #ddd;
+}
+.upper{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #bbb;
+    background-color: aliceblue;
+}
+.upper h2 a{
+    color: #666;
+    font: bold 24px/1 "arial";
+    float: left;
+}
+.upper ul{
+    float: right;
+    background-color: antiquewhite;
+}
+.upper::after{
+content:"";
+display: block;
+clear: both;
+}
+.upper ul li{
+    float: left;
+    margin-left: 20px;
+}
+.upper ul li a{
+    font: bold 14px/1 "arial";
+    color: #666;
+
+}
+.Lower{
+    background-color: rgb(82,158,224);
+    padding-top: 20px;
+}
+.Lower address{
+    font: 12px/1.3 "arial";
+    color: #777;
+    margin-bottom: 20px;
+}
+.Lower p{
+    font: 12px/1 "arial";
+    color: #777;
+}
